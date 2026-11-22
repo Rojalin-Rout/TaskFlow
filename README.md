@@ -112,6 +112,6 @@ git init
 git add .
 git commit -m "Initial TaskFlow task management app"
 git branch -M main
-git remote add origin https://github.com/Rojalin-Rout/TaskFlow.git
+git remote add origin https://github.com/YOUR_USERNAME/taskflow-app.git
 git push -u origin main
 ```

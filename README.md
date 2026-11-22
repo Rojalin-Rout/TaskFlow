@@ -106,18 +106,12 @@ See [`docs/API.md`](docs/API.md) for endpoint details and examples.
 - Quality: frontend/backend validation and user feedback
 - Testing: manual test checklist in project documentation
 
-## Security notes
-- Never commit `.env` files or real credentials.
-- Parameterized SQL queries are used to avoid SQL injection.
-- Validation is performed on server-side even when frontend validation exists.
-- This assessment build does not include authentication or user/role ownership; these are documented as future improvements.
-
 ## GitHub upload
 ```bash
 git init
 git add .
 git commit -m "Initial TaskFlow task management app"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/taskflow-app.git
+git remote add origin https://github.com/Rojalin-Rout/TaskFlow.git
 git push -u origin main
 ```
